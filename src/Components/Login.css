@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(45deg, #ff7f50, #ff4f93);
+
+}
+.Login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 170px;
+  }
+  
+  .Login h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .LoginForm {
+    margin-top: 20px;
+  }
+  
+  .LoginEmail,
+  .LoginPassword {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .LogimEmailInput{
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+  }
+  .LoginPasswordInput {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .LoginButton {
+    
+    color: #181717;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .LoginButton:hover {
+    background: linear-gradient(45deg, #ff7f50, #ff4f93);
+  }
+  
+  p {
+    color: red;
+  }
+  

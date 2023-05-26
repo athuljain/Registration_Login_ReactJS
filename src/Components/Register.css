@@ -1,0 +1,78 @@
+.Registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .RegForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .RegUsername,
+  .RegEmail,
+  .RegPassword {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .InputUsername,
+  .InputEmail,
+  .InputPassword {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .RegButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .RegButton:hover {
+    background-color: #45a049;
+  }
+  
+  .RegButton:active {
+    background-color: #3e8e41;
+  }
+  
+  .RegButton:focus {
+    outline: none;
+  }
+  
+  .RegButton:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .Registration h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Registration p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .Registration a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .Registration a:hover {
+    color: #ccc;
+  }
+  
